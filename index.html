@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibrahim Issack — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <div class="brand-logo">
+          <img src="iprahim.pjg" alt="Ibrahim Issack portrait" />
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Ibrahim Issack</span>
+          <span class="brand-role">Creative Software Developer</span>
+        </div>
+      </a>
+      <nav class="nav" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#register">Register</a>
+        <a href="#contact" class="btn btn-primary nav-contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-gradient"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-pill">Available for remote & onsite projects</p>
+          <h1>
+            I craft <span>software</span> & <span>visual stories</span> that feel alive.
+          </h1>
+          <p class="hero-subtitle">
+            Software Developer · Graphic Designer · Video Editor · Motion Graphics Artist ·
+            Mobile App (Android & iOS) Creator.
+          </p>
+          <div class="hero-actions">
+            <a href="#register" class="btn btn-primary btn-lg">Start a project with me</a>
+            <a href="#services" class="btn btn-outline btn-lg">Explore my services</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="highlight">
+              <span class="highlight-number">5+</span>
+              <span class="highlight-label">Creative disciplines</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-number">End‑to‑end</span>
+              <span class="highlight-label">From idea to launch</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-number">Pixel‑perfect</span>
+              <span class="highlight-label">Design & code</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-profile">
+          <div class="hero-avatar-wrapper">
+            <div class="hero-avatar-ring"></div>
+            <img src="iprahim.pjg" alt="Ibrahim Issack" class="hero-avatar" />
+          </div>
+          <div class="hero-badge-card">
+            <h3>Multidisciplinary creator</h3>
+            <p>
+              One partner for design, video, motion graphics, and mobile & web development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services">
+      <div class="container">
+        <header class="section-header">
+          <h2>Services that bring your ideas to life</h2>
+          <p>
+            From brand visuals to fully working applications, I combine design and development
+            to ship experiences people remember.
+          </p>
+        </header>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Web & Software Development</h3>
+            <p>
+              Modern, responsive websites and web applications with clean architecture,
+              smooth animations, and high performance.
+            </p>
+            <ul>
+              <li>Custom business websites & dashboards</li>
+              <li>API integration & backend logic</li>
+              <li>SEO‑friendly and mobile‑friendly builds</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h3>Mobile Apps (Android & iOS)</h3>
+            <p>
+              Cross‑platform mobile apps with intuitive UX and beautiful UI for both Android
+              and iOS users.
+            </p>
+            <ul>
+              <li>Idea to prototype to store‑ready app</li>
+              <li>Smooth navigation & animations</li>
+              <li>Integration with APIs & notifications</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <h3>Graphic Design & Branding</h3>
+            <p>
+              Strong visual identity for your brand: logos, social media kits, posters, and
+              marketing materials.
+            </p>
+            <ul>
+              <li>Logos & brand guidelines</li>
+              <li>Social media & ad designs</li>
+              <li>Print & digital assets</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-film"></i></div>
+            <h3>Video Editing & Motion Graphics</h3>
+            <p>
+              Dynamic video edits and motion graphics that make your message unforgettable.
+            </p>
+            <ul>
+              <li>YouTube & social content editing</li>
+              <li>Logo animations & titles</li>
+              <li>Explainer & promotional videos</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section pricing">
+      <div class="container">
+        <header class="section-header">
+          <h2>Flexible plans for any stage</h2>
+          <p>
+            Choose a package that matches your project size. Every plan can be customized to
+            fit your exact needs.
+          </p>
+        </header>
+        <div class="pricing-grid">
+          <article class="pricing-card reveal">
+            <h3>Starter Spark</h3>
+            <p class="pricing-tagline">Perfect for individuals & small ideas.</p>
+            <div class="price">
+              <span class="currency">$</span>199
+              <span class="price-period">/ project</span>
+            </div>
+            <ul>
+              <li>Single landing page or logo pack</li>
+              <li>Basic visual identity & layout</li>
+              <li>1 round of revisions</li>
+              <li>Delivery in 5–7 days</li>
+            </ul>
+            <a href="#register" class="btn btn-outline full-width">Start with Starter Spark</a>
+          </article>
+
+          <article class="pricing-card featured reveal">
+            <span class="badge">Most Popular</span>
+            <h3>Growth Studio</h3>
+            <p class="pricing-tagline">For businesses ready to grow online.</p>
+            <div class="price">
+              <span class="currency">$</span>499
+              <span class="price-period">/ project</span>
+            </div>
+            <ul>
+              <li>Multi‑section website or mobile app MVP</li>
+              <li>Custom graphics & motion snippets</li>
+              <li>3 rounds of revisions</li>
+              <li>Delivery in 2–3 weeks</li>
+            </ul>
+            <a href="#register" class="btn btn-primary full-width">Choose Growth Studio</a>
+          </article>
+
+          <article class="pricing-card reveal">
+            <h3>Ultimate Experience</h3>
+            <p class="pricing-tagline">For full creative + technical production.</p>
+            <div class="price">
+              <span class="currency">$</span>899+
+              <span class="price-period">/ project</span>
+            </div>
+            <ul>
+              <li>Web or mobile app + full branding</li>
+              <li>Video editing & motion graphic package</li>
+              <li>Priority support & strategy sessions</li>
+              <li>Custom timeline & scope</li>
+            </ul>
+            <a href="#register" class="btn btn-outline full-width">Talk about Ultimate Experience</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="register" class="section register">
+      <div class="container">
+        <div class="register-layout">
+          <div class="register-content reveal">
+            <h2>Register your project idea</h2>
+            <p>
+              Tell me what you want to build and I’ll get back to you with a clear plan,
+              timeline, and price — no confusion, just clarity.
+            </p>
+            <ul class="register-highlights">
+              <li><i class="fa-solid fa-check"></i> Smooth animated form experience</li>
+              <li><i class="fa-solid fa-check"></i> Response within 24–48 hours</li>
+              <li><i class="fa-solid fa-check"></i> Free recommendations before we start</li>
+            </ul>
+          </div>
+
+          <form class="register-form reveal" id="register-form">
+            <div class="form-header">
+              <span class="form-label-pill">Quick registration</span>
+              <h3>Let’s start something amazing</h3>
+            </div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="project-type">Project Type</label>
+              <select id="project-type" name="projectType" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="web">Web / Software Development</option>
+                <option value="mobile">Mobile App (Android & iOS)</option>
+                <option value="design">Graphic Design / Branding</option>
+                <option value="video">Video Editing / Motion Graphics</option>
+                <option value="full">Full package (design + development)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="details">Project Details</label>
+              <textarea
+                id="details"
+                name="details"
+                rows="4"
+                placeholder="Share your goals, audience, and any links or references you like."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg full-width">
+              Submit registration
+            </button>
+            <p class="form-footnote">
+              By submitting, you agree to be contacted via email or WhatsApp about this project.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div class="contact-info reveal">
+          <h2>Let’s talk about your next project</h2>
+          <p>
+            You can reach me directly via phone, email, or WhatsApp. I’m happy to discuss ideas,
+            give feedback, or help you shape a full project roadmap.
+          </p>
+          <div class="contact-details">
+            <a href="tel:+251900265568" class="contact-row">
+              <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+              <span class="contact-text">+251 900 265 568</span>
+            </a>
+            <a href="mailto:iprahimissackaden73@gmail.com" class="contact-row">
+              <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+              <span class="contact-text">iprahimissackaden73@gmail.com</span>
+            </a>
+            <a
+              href="https://wa.me/252614514557"
+              target="_blank"
+              rel="noopener"
+              class="contact-row"
+            >
+              <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span>
+              <span class="contact-text">Chat on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-card reveal">
+          <h3>Why clients enjoy working with me</h3>
+          <ul>
+            <li>Clear communication and regular updates.</li>
+            <li>Design, video, motion, and code all in one place.</li>
+            <li>Care for both visuals and performance.</li>
+            <li>Respect for your time, budget, and vision.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="iprahim.pjg" alt="Ibrahim Issack logo" />
+          <span>Ibrahim Issack</span>
+        </div>
+        <p>Design, motion, video, and software — crafted with care.</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a
+            href="https://wa.me/252614514557"
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp chat"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+        <p class="footer-copy">© <span id="year"></span> Ibrahim Issack. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
